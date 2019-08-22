@@ -14,6 +14,8 @@ public class Gravity {
         double time = s.nextDouble();
         double speed = 9.8 * time;
         double distance = 0.5 * 9.8 * time * time;
+        String str = String.format("%.15f", speed);
+        System.out.println("The speed of the object at " + time + " seconds after its release is " + str + " and the distance the object has travelled in the " + time + " seconds after the relase is " + distance);
 		/* TODO 2:
 		 *   a. Declare all your necessary variables inside main method.
 		 *   b. Declare a constant for 'gravity', assume the value to be 9.8
